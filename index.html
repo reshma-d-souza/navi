@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>In-Store Navigation System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🛍️ In-Store Navigation System</h1>
+    <p id="mallStatus"></p>
+  </header>
+
+  <section id="floorSelector">
+    <button onclick="changeFloor(0)">Ground Floor</button>
+    <button onclick="changeFloor(1)">1st Floor</button>
+    <button onclick="changeFloor(2)">2nd Floor</button>
+  </section>
+
+  <section id="layoutContainer">
+    <div id="storeLayout"></div>
+  </section>
+
+  <section id="sidePanel">
+    <h2>Items List</h2>
+    <input type="text" id="searchBox" placeholder="Search item..." onkeyup="searchItem()">
+
+    <ul id="itemList"></ul>
+
+    <button id="editModeBtn" onclick="toggleEditMode()">Shopkeeper Mode</button>
+  </section>
+
+  <!-- Item Details Popup -->
+  <div id="itemPopup" class="hidden">
+    <div class="popupContent">
+      <h3 id="popupName"></h3>
+      <p id="popupLocation"></p>
+      <button onclick="closePopup()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
