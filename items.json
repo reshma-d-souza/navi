@@ -1,49 +1,71 @@
 {
-  "floors": [
-    {
-      "name": "Ground Floor",
-      "items": {
-        "5": "Shoes",
-        "12": "Handbags",
-        "34": "Perfume",
-        "45": "Watches"
-      }
-    },
-    {
-      "name": "1st Floor",
-      "items": {
-        "10": "Groceries",
-        "20": "Snacks",
-        "32": "Soft Drinks",
-        "56": "Dry Fruits"
-      }
-    },
-    {
-      "name": "2nd Floor",
-      "items": {
-        "6": "Electronics",
-        "15": "Mobiles",
-        "22": "Laptops",
-        "40": "Headphones"
-      }
-    },
-    {
-      "name": "3rd Floor",
-      "items": {
-        "8": "Clothes",
-        "18": "Kids Wear",
-        "28": "Sports Wear",
-        "48": "Winter Collection"
-      }
-    },
-    {
-      "name": "Food Court",
-      "items": {
-        "7": "Pizza",
-        "17": "Juice",
-        "27": "Coffee",
-        "37": "Ice Cream"
-      }
-    }
+  "shops": [
+    {"name": "Westside", "floor": "Ground Floor"},
+    {"name": "Pantaloons", "floor": "Ground Floor"},
+    {"name": "Big Bazaar", "floor": "Ground Floor"},
+    {"name": "FabIndia", "floor": "Ground Floor"},
+    {"name": "Lifestyle", "floor": "Ground Floor"},
+    {"name": "Home Centre", "floor": "Ground Floor"},
+    {"name": "Bata", "floor": "Ground Floor"},
+    {"name": "Metro Shoes", "floor": "Ground Floor"},
+
+    {"name": "Levi’s", "floor": "1st Floor"},
+    {"name": "H&M", "floor": "1st Floor"},
+    {"name": "Max Fashion", "floor": "1st Floor"},
+    {"name": "Biba", "floor": "1st Floor"},
+    {"name": "Raymond", "floor": "1st Floor"},
+    {"name": "Allen Solly", "floor": "1st Floor"},
+    {"name": "Van Heusen", "floor": "1st Floor"},
+    {"name": "Peter England", "floor": "1st Floor"},
+    {"name": "Arrow", "floor": "1st Floor"},
+    {"name": "United Colors of Benetton", "floor": "1st Floor"},
+    {"name": "Global Desi", "floor": "1st Floor"},
+    {"name": "W for Women", "floor": "1st Floor"},
+    {"name": "Mufti", "floor": "1st Floor"},
+    {"name": "Spykar", "floor": "1st Floor"},
+    {"name": "Lee", "floor": "1st Floor"},
+    {"name": "Jack & Jones", "floor": "1st Floor"},
+
+    {"name": "Nike", "floor": "2nd Floor"},
+    {"name": "Puma", "floor": "2nd Floor"},
+    {"name": "Adidas", "floor": "2nd Floor"},
+    {"name": "Skechers", "floor": "2nd Floor"},
+    {"name": "Woodland", "floor": "2nd Floor"},
+    {"name": "Reebok", "floor": "2nd Floor"},
+    {"name": "Planet Sports", "floor": "2nd Floor"},
+
+    {"name": "Reliance Digital", "floor": "2nd Floor"},
+    {"name": "Croma", "floor": "2nd Floor"},
+    {"name": "Samsung", "floor": "2nd Floor"},
+    {"name": "Bose", "floor": "2nd Floor"},
+
+    {"name": "Poorvika Mobiles", "floor": "2nd Floor"},
+    {"name": "Sangeetha Mobiles", "floor": "2nd Floor"},
+
+    {"name": "Tanishq", "floor": "3rd Floor"},
+    {"name": "Malabar Gold & Diamonds", "floor": "3rd Floor"},
+    {"name": "Titan World", "floor": "3rd Floor"},
+    {"name": "Joyalukkas", "floor": "3rd Floor"},
+    {"name": "Daniel Wellington", "floor": "3rd Floor"},
+    {"name": "Citizen", "floor": "3rd Floor"},
+    {"name": "Seiko", "floor": "3rd Floor"},
+
+    {"name": "The Body Shop", "floor": "3rd Floor"},
+    {"name": "Nykaa", "floor": "3rd Floor"},
+    {"name": "Health & Glow", "floor": "3rd Floor"},
+
+    {"name": "Crossword", "floor": "4th Floor"},
+    {"name": "Sapna Book House", "floor": "4th Floor"},
+
+    {"name": "Hidesign", "floor": "4th Floor"},
+    {"name": "Lavie", "floor": "4th Floor"},
+    {"name": "Style Union", "floor": "4th Floor"},
+
+    {"name": "McDonald's", "floor": "Food Court"},
+    {"name": "KFC", "floor": "Food Court"},
+    {"name": "Domino's", "floor": "Food Court"},
+    {"name": "Pizza Hut", "floor": "Food Court"},
+    {"name": "Subway", "floor": "Food Court"},
+    {"name": "Savoury Restaurant", "floor": "Food Court"}
   ]
 }
