@@ -1,0 +1,49 @@
+{
+  "floors": [
+    {
+      "name": "Ground Floor",
+      "items": {
+        "5": "Shoes",
+        "12": "Handbags",
+        "34": "Perfume",
+        "45": "Watches"
+      }
+    },
+    {
+      "name": "1st Floor",
+      "items": {
+        "10": "Groceries",
+        "20": "Snacks",
+        "32": "Soft Drinks",
+        "56": "Dry Fruits"
+      }
+    },
+    {
+      "name": "2nd Floor",
+      "items": {
+        "6": "Electronics",
+        "15": "Mobiles",
+        "22": "Laptops",
+        "40": "Headphones"
+      }
+    },
+    {
+      "name": "3rd Floor",
+      "items": {
+        "8": "Clothes",
+        "18": "Kids Wear",
+        "28": "Sports Wear",
+        "48": "Winter Collection"
+      }
+    },
+    {
+      "name": "Food Court",
+      "items": {
+        "7": "Pizza",
+        "17": "Juice",
+        "27": "Coffee",
+        "37": "Ice Cream"
+      }
+    }
+  ]
+}
